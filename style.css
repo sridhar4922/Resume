@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+   
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;;
+    margin: 0;
+    padding: 0;
+    background-color: #FDF9F1;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+  }
+
+  .container {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    
+  }
+  .headerimg{
+    width: 100%;
+    height: auto; 
+    background-color:#FDF9F1
+  }
+
+  .name{
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-size:larger;
+  font-style: normal;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px; 
+  font-weight: bold; 
+  text-align: center;
+  letter-spacing: 5px;
+  }
+  .nametitle{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  position: absolute;
+  top: 35%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px; 
+  text-align: center;
+  }
+
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  main h2 {
+    margin-top: 0;
+  }
+  
+  main ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5%;
+  }
+
+  .left,.right{
+    flex: 1;
+  }
+
+  .tech{
+    line-height: 0;
+
+  }
+  .edu{
+    line-height: 0.5;
+    
+  }
