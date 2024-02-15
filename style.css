@@ -17,7 +17,9 @@
     color: black;
     padding-bottom: 10px;
   }
-
+h2{
+    color: #DF895D;
+  }
   .container {
     position: relative;
     width: 100%; 
